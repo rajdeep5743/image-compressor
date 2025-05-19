@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FileMagic - All-in-One File Conversion & Optimization Toolkit. Convert, compress, and edit images, PDFs, and documents online for free.">
+    <title>FileMagic - Online File Tools</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f8f9fa;
+        }
+
+        .header {
+            background: var(--primary-color);
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .nav {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        .tool-grid {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .tool-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            text-align: center;
+            transition: transform 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .tool-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .tool-icon {
+            font-size: 2.5rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+
+        .category-section {
+            margin: 3rem 0;
+            padding: 2rem 1rem;
+            background: white;
+        }
+
+        .ad-banner {
+            margin: 2rem auto;
+            text-align: center;
+            padding: 1rem;
+            background: white;
+        }
+
+        .footer {
+            background: var(--primary-color);
+            color: white;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .tool-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Google AdSense Code -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+    crossorigin="anonymous"></script>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">FileMagic</div>
+            <div class="nav-links">
+                <a href="#image-tools" class="nav-link">Image Tools</a>
+                <a href="#pdf-tools" class="nav-link">PDF Tools</a>
+                <a href="#doc-tools" class="nav-link">Document Tools</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="ad-banner">
+        <!-- Ad Unit 1 -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+            data-ad-slot="INSERT_AD_SLOT_ID_1"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+    </div>
+
+    <section class="hero">
+        <h1>Transform Your Files with Ease</h1>
+        <p>Free online tools for images, PDFs, and documents</p>
+        <div class="cta-buttons" style="margin-top: 2rem;">
+            <button class="cta-button">Start Converting</button>
+            <button class="cta-button">Compress Files</button>
+        </div>
+    </section>
+
+    <main class="container">
+        <section class="category-section" id="image-tools">
+            <h2>Image Tools</h2>
+            <div class="tool-grid">
+               <a href="/img-compressor.html" class="tool-card">
+    <i class="fas fa-file-image tool-icon"></i>
+    <h3>Image Compressor</h3>
+    <p>Reduce image file size without quality loss</p>
+</a>
+                <div class="tool-card">
+                    <i class="fas fa-exchange-alt tool-icon"></i>
+                    <h3>Image Converter</h3>
+                    <p>Convert between JPG, PNG, WEBP, and more</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-expand-alt tool-icon"></i>
+                    <h3>Resize Image</h3>
+                    <p>Adjust image dimensions precisely</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-undo tool-icon"></i>
+                    <h3>Rotate & Flip</h3>
+                    <p>Adjust image orientation</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-water tool-icon"></i>
+                    <h3>Watermark Adder</h3>
+                    <p>Add text/image watermarks</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-images tool-icon"></i>
+                    <h3>Collage Maker</h3>
+                    <p>Create photo collages</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="category-section" id="pdf-tools">
+            <h2>PDF Tools</h2>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <i class="fas fa-file-pdf tool-icon"></i>
+                    <h3>PDF Compressor</h3>
+                    <p>Reduce PDF file size</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-merge tool-icon"></i>
+                    <h3>PDF Merger</h3>
+                    <p>Combine multiple PDFs</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-cut tool-icon"></i>
+                    <h3>PDF Splitter</h3>
+                    <p>Split PDF into multiple files</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-lock tool-icon"></i>
+                    <h3>PDF Protect</h3>
+                    <p>Add password protection</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-word tool-icon"></i>
+                    <h3>PDF to Word</h3>
+                    <p>Convert PDF to editable DOC</p>
+                </div>
+                <div class="tool-card">
+                    <i class="fas fa-file-excel tool-icon"></i>
+                    <h3>Excel to PDF</h3>
+                    <p>Convert spreadsheets to PDF</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="ad-banner">
+            <!-- Ad Unit 2 -->
+            <ins class="adsbygoogle"
+                style="display:block"
+                data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+                data-ad-slot="INSERT_AD_SLOT_ID_2"
+                data-ad-format="auto"
+                data-full-width-responsive="true"></ins>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content" style="max-width: 1200px; margin: 0 auto;">
+            <p>&copy; 2023 FileMagic. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize AdSense
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        
+        // Mobile menu toggle
+        const navLinks = document.querySelector('.nav-links');
+        document.querySelector('.nav-toggle').addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
